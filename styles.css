@@ -218,7 +218,8 @@ img{
 }
 /***nurse-info page***/
 .nurse-container{
-  margin: 3vh auto;
+  padding: 2rem;
+  margin: 2vh auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -231,7 +232,7 @@ img{
   flex-direction: column;
   gap: 25px;
   background-color: #e1f1fcda;
-  width: 70vw;
+  width: 85vw;
   height: max-content;
   border-radius: 13px;
 }
