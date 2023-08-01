@@ -1,0 +1,249 @@
+/* .nav-section{
+  margin-left:60vw ;
+} */
+body{
+  font-family: 'Varela Round', sans-serif;
+}
+h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.careBuddy{
+  margin: 2vh;
+  padding: 4px;
+  color: white;
+  background-color: #75C2F6;
+  border-radius: 17px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  width: max-content;
+  height: max-content;
+}
+.heading{
+  color: color-mix(in srgb, #50b7fb 45% ,rgb(245, 144, 144) 45%);
+  margin: auto 1.5vw;
+  display: inline-block;
+  margin-bottom: 0;
+}
+p{
+  font-size: 12px;
+}
+.nav{
+  font-family: 'Ubuntu', sans-serif;
+  background-color: #75C2F6;
+  margin-bottom: 3rem;
+}
+
+.contents h3{
+  font-family: 'EB Garamond', serif;
+}
+.logo{
+  font-size: 1.7rem;
+}
+.nav-container a {
+  color: rgb(245, 245, 245);
+  
+}
+
+.contents{
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contents div{
+  margin-bottom: 30px;
+}
+.bookings-card {
+  border-radius: 5px;
+  width: 300px;
+}
+.top-nurses-card {
+  display: flex;
+  /* gap: 10px; */
+  flex-direction: column;
+  background-color: #e1f1fc;
+   /* width: 300px; */
+  height: 330px ; 
+}
+#card-news{
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 89vw; */
+}
+.newscard {
+  /* display: flex; */
+  background:linear-gradient(45deg,#e1f1fc,white);
+  border-radius: 5px;
+}
+
+.displayLess{
+  display: none;
+}
+  
+.top-nurses-card,.bookings-card,.newscard{
+  opacity: 1;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  float: left;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 10px;
+  margin: 10px;
+  transition: all 0.3s ease;
+}
+
+.top-nurses-card:hover,
+.bookings-card:hover,
+.newscard:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.top-nurses-card:not(:hover),
+.bookings-card:not(:hover),
+.newscard:not(:hover){
+  opacity: 0.9;
+}
+
+
+  
+.card p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+  
+.top-nurses-card img {
+  object-fit: cover;
+  border-radius: 8px;
+  width: 150px;
+  height: 100px;
+}
+
+.nurse-div{
+  display: flex;
+  gap: 40px;
+}
+.nurse-name-rating{
+  display: flex;
+  flex-direction: column;
+}
+
+.nurse-speciality{
+  padding: 0;
+  display: flex;
+  gap: 7px;
+}
+.speciality{
+  margin: 0;
+  width: max-content;
+  font-size: 12px;
+  border-radius: 5px;
+  padding: 5px;
+  color: azure;
+  background-color: rgb(69, 69, 227);
+}
+img{
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+.newscard img{
+  width: 60%;
+  height: 65%;
+}
+/*******login-page********/
+.login-container{
+  margin: 10vh auto;
+  padding: 0;
+  border-radius: 9px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  width: max-content;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+.banner{
+  margin-left: 0;
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+  padding: 25px;
+  background: linear-gradient(135deg,#094771,#8acefc) ;
+  color: aliceblue;
+  width: 350px;
+  /* height: 300.927px; */
+}
+.login{
+  /* display:flex; */
+  border-top-right-radius: 9px;
+  border-bottom-right-radius: 9px;
+  padding: 19px;
+  /* height: max-content; */
+
+
+  /* height: 500px; */
+  width: 350px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .login-container {
+    /* width: 100%; */
+    flex-direction: column;
+  }
+  .banner{
+    box-shadow: none;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 9px;
+  }
+  .login{
+    border-top-right-radius:0 ;
+    border-bottom-left-radius: 9px;
+  }
+}
+.input-control input:focus{
+  outline: 0;
+}
+
+.input-control.success input{
+  border-color: #09c372;
+}
+
+.input-control.error input{
+  border-color: #ff3860;
+}
+.input-control .error{
+  padding: 2px 5px 0;
+  color: #ff3860;
+  font-size: 9px;
+  height: 13px;
+}
+/***nurse-info page***/
+.nurse-container{
+  margin: 3vh auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nurse-divs{
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  background-color: #e1f1fcda;
+  width: 70vw;
+  height: max-content;
+  border-radius: 13px;
+}
+.nurseInfo{
+  display: flex;
+  gap: 30px;
+}
+#cardTitle{
+  display: inline;
+}
+#cardImage{
+  width: 190px;
+  height:120px;
+  border-radius: 9px;
+}
