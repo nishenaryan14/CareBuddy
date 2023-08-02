@@ -250,6 +250,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const nurseName = document.createElement("div");
         nurseName.classList.add("nurse-name-rating"); //for making flex with column flex
         const nurseImage = document.createElement("div");
+        nurseImage.classList.add("nurse-img");
         const nurseDetails = document.createElement("div");
         nurseDetails.classList.add("nurse-details"); //for making flex column
 
