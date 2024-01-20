@@ -7,6 +7,7 @@ import "./home.css";
 import { useNavigate } from "react-router-dom";
 import { useAuth } from "../../context/AuthContext";
 import TopNurses from "../../components/topNurses/TopNurses";
+import { HomeCarousel } from "../../components/homeParallax/HomeParallax";
 import GetNews from "../../components/getNews/GetNews";
 import Footer from "../../components/footer/Footer";
 function Home() {
@@ -26,6 +27,7 @@ function Home() {
           </div>
         ) : (
           <>
+            <HomeCarousel />
             <div className="poster">
               <div className="posterText">
                 <h2>CareBuddy</h2>
