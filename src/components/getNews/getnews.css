@@ -1,0 +1,33 @@
+.getNewsParent {
+  margin-top: 80px;
+}
+.getNews {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 450px;
+  overflow-y: scroll;
+  gap: 30px;
+  justify-content: safe;
+}
+.newsArticle {
+  height: 200px;
+  width: 350px;
+  padding: 15px;
+  overflow: hidden;
+  cursor: pointer;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  text-wrap: wrap;
+  display: flex;
+  background-color: #def1fe;
+}
+.newsImg {
+  width: 52%;
+}
+
+@media (max-width: 991px) {
+  .getNews {
+    justify-content: center;
+  }
+}

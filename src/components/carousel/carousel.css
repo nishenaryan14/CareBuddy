@@ -1,0 +1,20 @@
+/* carousel.css */
+
+.carouselBox {
+  height: 600px;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.carouselImgBox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-items: stretch;
+}
+
+.carouselImg {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Use 'contain' instead of 'cover' to maintain aspect ratio */
+}

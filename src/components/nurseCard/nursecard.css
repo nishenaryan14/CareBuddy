@@ -1,0 +1,74 @@
+.topNurse {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  padding-top: 40px;
+  overflow: hidden;
+  background-color: #def1fe;
+  border-radius: 5px;
+  text-align: center;
+  height: 320px;
+  padding: 0;
+  width: 470px;
+}
+.topNurseTop {
+  height: 250px;
+  display: flex;
+  margin: 0;
+}
+
+.topNurseImg {
+  border-radius: 5px;
+  overflow: hidden;
+  height: 100%;
+  width: 170px;
+}
+.topNurseImg img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.topNurseCardContent {
+  padding: 15px;
+}
+.topNurseName,
+.biography {
+  text-align: left;
+  text-transform: capitalize;
+}
+.qualificationBtn {
+  outline: 0;
+  border: 0;
+  padding: 5px;
+  color: #def1fe;
+  background-color: cornflowerblue;
+  border-radius: 4px;
+}
+.speciality {
+  padding: 3px;
+  background-color: transparent;
+  border-radius: 3px;
+  color: rgb(25, 26, 26);
+  border: 1px solid rgb(15, 125, 125);
+  outline: 0;
+  margin: 5px;
+}
+
+.topNurseBottom {
+  padding: 10px;
+  display: flex;
+  gap: 12px;
+}
+@media (max-width: 991px) {
+  .topNursesDiv {
+    justify-content: center;
+    gap: 0;
+  }
+  /* .topNurse {
+    margin-top: 20px;
+    margin-right: 20px;
+  } */
+}

@@ -1,0 +1,34 @@
+.loginContainer {
+  background-color: #c5e4f9;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginContainerWrapper {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  flex-wrap: wrap;
+  background-color: white;
+  padding: 30px;
+  height: max-content;
+  width: 700px;
+  max-width: 90vw;
+  /* width: max-content; */
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.welcomeTextLogin {
+  max-width: 20vw;
+  min-width: 200px;
+}
+.loginForm {
+  /* margin: 30px; */
+  max-width: 26vw;
+  min-width: 200px;
+}
+form p {
+  text-align: center;
+  margin-top: 20px;
+}
