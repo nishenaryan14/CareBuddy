@@ -28,19 +28,21 @@ function TopNurses() {
     getTopNurses();
   }, []);
   return (
-    <div className="topNursesParent">
+    <>
       <h2 className="topNursesHeading">Top Nurses in your Area</h2>
-      <div className="topNursesDiv">
-        {topNurseDetails?.map((nurse, index) => (
-          <NurseCard
-            nurse={nurse}
-            isLoading={isLoading}
-            isNurse={isNurse}
-            key={index}
-          />
-        ))}
+      <div className="topNursesParent">
+        <div className="topNursesDiv">
+          {topNurseDetails?.map((nurse, index) => (
+            <NurseCard
+              nurse={nurse}
+              isLoading={isLoading}
+              isNurse={isNurse}
+              key={index}
+            />
+          ))}
+        </div>
       </div>
-    </div>
+    </>
   );
 }
 export default TopNurses;

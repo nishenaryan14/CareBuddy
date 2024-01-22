@@ -2,8 +2,17 @@
   margin: 0;
   padding: 0;
 }
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
 .app {
   /* padding: 10px; */
   overflow: hidden;
   /* width: 99vw; */
+}
+section {
+  height: 100vh;
+  scroll-snap-align: center;
 }

@@ -1,6 +1,7 @@
 .homeContent {
   height: calc(100% - 60px);
 }
+
 .poster {
   padding: 30px 20px;
   display: flex;
@@ -8,13 +9,13 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 60px;
-  min-height: 480px;
   min-width: 100vw;
 }
 .poster.blue {
   background-color: #75c2f6;
   color: aliceblue;
 }
+
 .posterText {
   display: flex;
   padding: 20px;
