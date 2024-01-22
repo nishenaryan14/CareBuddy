@@ -1,7 +1,7 @@
 import Carousel from "../../components/carousel/Carousel";
 import Navbar from "../../components/navbar/Navbar";
-import image1 from "../../assets/images/nurse1.jpeg";
-import image2 from "../../assets/images/nurse2.jpeg";
+import image2 from "../../assets/images/nurse3.jpeg";
+import image1 from "../../assets/images/nurse2.jpeg";
 import { SiAccenture } from "react-icons/si";
 import "./home.css";
 import { useNavigate } from "react-router-dom";
@@ -61,12 +61,16 @@ function Home() {
                     </button>
                   </div>
                 </motion.div>
-                <img src={image1} alt="" />
+                <div className="imageDiv">
+                  <img src={image1} alt="" />
+                </div>
               </section>
             </Element>
             <Element name="section2">
               <section className="poster blue">
-                <img src={image2} alt="" />
+                <div className="imageDiv">
+                  <img src={image2} alt="" />
+                </div>
                 <motion.div
                   className="posterText"
                   initial={{ opacity: 0, x: 80 }}

@@ -42,13 +42,19 @@
   border: 1px solid rgb(3, 179, 179);
   color: rgb(3, 179, 179);
 }
-.poster img {
+.imageDiv {
   height: 300px;
   width: 300px;
   border-radius: 50%;
+  overflow: hidden;
   box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset,
     rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+.imageDiv img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 .serviceListBox {
   display: flex;
