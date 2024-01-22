@@ -35,8 +35,8 @@ function Home() {
             <Element name="section1" className="element">
               <section className="poster">
                 <motion.div
-                  initial={{ opacity: 0, x: -50 }}
-                  whileInView={{ x: 30, opacity: 1 }}
+                  initial={{ opacity: 0, x: -60 }}
+                  whileInView={{ x: 0, opacity: 1 }}
                   transition={{ duration: 1 }}
                   className="posterText"
                 >
