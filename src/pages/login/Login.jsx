@@ -26,7 +26,7 @@ function Login() {
 
     try {
       const response = await axios.post(
-        "http://aspark-care-buddy.ap-south-1.elasticbeanstalk.com/api/user/login",
+        "//aspark-care-buddy.ap-south-1.elasticbeanstalk.com/api/user/login",
         {
           email: enteredEmail,
           password: enteredPassword,

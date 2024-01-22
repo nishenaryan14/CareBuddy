@@ -40,7 +40,7 @@ function SignUp() {
 
     try {
       const response = await axios.post(
-        "http://aspark-care-buddy.ap-south-1.elasticbeanstalk.com/api/user/signup",
+        "//aspark-care-buddy.ap-south-1.elasticbeanstalk.com/api/user/signup",
         {
           name: formData.name,
           email: formData.email,
